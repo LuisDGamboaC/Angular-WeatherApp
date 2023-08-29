@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class WeatherServiceService {
 
-  private apiKey = '7947cb00f9c88953d5021ce73514c911';
+  private apiKey = '7947cb00f9c88953d5021e73514c91'; //c1
 
 
   constructor(private http: HttpClient) { }
