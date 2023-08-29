@@ -1,0 +1,150 @@
+
+
+.content {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border-radius: 10px;
+
+}
+
+.mr {
+  margin-right: 16px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.no-info {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+.weather-info {
+  -webkit-box-shadow: 22px 10px 11px 4px rgba(0,0,0,0.36);
+-moz-box-shadow: 22px 10px 11px 4px rgba(0,0,0,0.36);
+box-shadow: 22px 10px 11px 4px rgba(0,0,0,0.36);
+border-radius: 10px;
+} 
+
+.padmarg {
+  margin: 0 8rem 0 8rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.weather-noInfo {
+  -webkit-box-shadow: 8px 10px 11px 4px rgba(0,0,0,0.36);
+  -moz-box-shadow: 8px 10px 11px 4px rgba(0,0,0,0.36);
+  box-shadow: 8px 10px 11px 4px rgba(0,0,0,0.36);
+  margin: 0 8rem 0 8rem;
+  padding: 1rem 0 0.5rem 0;
+  border-radius: 10px;
+
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  color: pink;
+  margin-bottom: 2rem;
+  font-size: x-large;
+
+}
+
+.content-info {
+  box-sizing: border-box;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+}
+.name {
+  font-weight: 500;
+  font-size: large;
+  margin-left: 1rem;
+}
+
+.temp {
+  font-weight: 500;
+  font-size: large;
+  margin-left: 1rem;
+  font-size: large;
+
+}
+
+.humi {
+  font-weight: 500;
+  font-size: large;
+  margin-left: 1rem;
+  font-size: large;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pdmg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* @media screen and (min-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+} */
+
+
+.flex-colm{
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.foot {
+  background-color: rgb(208, 29, 125);
+  color: white;
+}
+
+.fp {
+  font-size: small;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+.icon {
+  margin-bottom: 5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* replace with actual footer height */
+}
